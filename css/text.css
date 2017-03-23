@@ -1,0 +1,63 @@
+a {
+	color: black;
+	text-decoration: none;
+	
+}
+
+.bg{
+	background-image: url('../img/bg-image.jpg');
+	background-position: center;
+	filter:alpha(opacity=50);
+	background-repeat: no-repeat;
+}
+
+.about_bar{	
+	font-family: Tahoma;
+	text-align: center;
+	color: black;
+	margin-top:5%;
+	margin-bottom: 2%;
+	position: relative;
+}
+
+.info_bar{
+  font-family:Monospace;
+  margin-top: 3%;
+  margin-left: 16%;
+  margin-right: 16%;
+  padding-left: 5%;
+  margin-bottom: 6%;
+}
+
+.image_about{
+	margin-top: 20%;
+	margin-left: 10%;
+	border-radius:50%;
+	width:60%;
+}
+
+.contact_bar_wrap {
+	background-image: url('../img/bg-image2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: -1;
+}
+
+.contact_bar {
+	background: rgba(255, 255, 2555, 0.6)!important;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+	z-index: -1;
+	background: #fff;   /*　使用IE专属滤镜实现IE背景透明*/
+	font-family:Monospace;
+	padding-top: 2%;
+}
+
+.contact_bar h4{
+	position: relative;  /*实现IE文字不透明*/
+}
+
+.icon{
+	width:3%;
+}
+
